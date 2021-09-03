@@ -1,0 +1,26 @@
+{
+  "name": "mecha-bot",
+  "version": "1.0.0",
+  "description": "A Useful Bot to Add to your Discord Server",
+  "main": "./src/index.js",
+  "scripts": {
+    "deploy": "node deploy-cmds.js"
+  },
+  "author": "RimiSkiller",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^0.5.0",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "chalk": "^4.1.2",
+    "discord-api-types": "^0.22.0",
+    "discord.js": "^13.1.0",
+    "dotenv": "^10.0.0",
+    "glob": "^7.1.7",
+    "pretty-ms": "^7.0.1",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "nodemon": "^2.0.12"
+  }
+}
